@@ -3,6 +3,7 @@
 0-pascal_triangle
 """
 
+
 def pascal_triangle(n):
     """
     Returns a list of integers
@@ -16,5 +17,3 @@ def pascal_triangle(n):
             row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
         triangle.append(row)
     return triangle
-
-
